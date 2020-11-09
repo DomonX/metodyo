@@ -19,15 +19,15 @@
     "@angular/forms": "~8.2.14",
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
-    "@angular/router": "~8.2.14",
+    "@angular/router": "^8.2.14",
     "@types/mathjs": "^6.0.7",
+    "firebase": ">= 5.5.7 <8",
     "mathjs": "^8.0.0",
     "primeicons": "^4.0.0",
     "primeng": "^10.0.3",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
-    "zone.js": "~0.9.1",
-    "firebase": ">= 5.5.7 <8"
+    "zone.js": "~0.9.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.20",
