@@ -60,7 +60,7 @@ export class AppComponent {
   private getXs(h: number): number[] {
     const numbs = [];
     let curr = this.a;
-    while (curr < this.b) {
+    while (curr <= this.b) {
       numbs.push(curr);
       curr += h;
     }
