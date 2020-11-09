@@ -1,1 +1,18 @@
-<p>lab1 works!</p>
+<span class="p-float-label">
+  <input [(ngModel)]="values" size="100" id="float-input" type="text" pInputText>
+  <label for="float-input">Values divided by space</label>
+</span>
+<br><br>
+<span class="p-float-label p-mt-4">
+  <p-inputNumber id="float-number" [(ngModel)]="x"></p-inputNumber>
+  <label for="float-number">x</label>
+</span>
+<br><br>
+<p-button (click)="horner()" label="Calculate Horner"></p-button>
+<br><br>
+<ng-container *ngFor="let line of textRes">
+  {{line}}
+  <br>
+</ng-container>
+<br>
+{{result}}
