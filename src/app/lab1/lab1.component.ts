@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as math from 'mathjs';
 
 @Component({
   selector: 'app-lab1',
@@ -22,7 +23,7 @@ export class Lab1Component implements OnInit {
     const tab = this.values.split(' ').map(x => Number.parseFloat(x));
     this.result = tab.reduce((acc, curr, index) => {
       const res = acc * this.x + curr;
-      this.textRes.push(`${acc} * ${this.x} + ${curr} = ${res}`);
+      this.textRes.push(`${acc} * ${this.x} ${curr >= 0 ? '+' : '-'} ${math.abs(curr)} = ${res}`);
       return res;
     });
   }
