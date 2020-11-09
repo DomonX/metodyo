@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { ButtonModule } from 'primeng/button';
 import { InputNumberModule } from 'primeng/inputnumber';
 import { InputTextModule } from 'primeng/inputtext';
+import { MegaMenuModule } from 'primeng/megamenu';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -22,7 +23,8 @@ import { Lab3Component } from './lab3/lab3.component';
     InputNumberModule,
     FormsModule,
     ButtonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MegaMenuModule
   ],
   exports: [
     AppRoutingModule
