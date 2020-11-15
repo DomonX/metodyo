@@ -13,7 +13,8 @@ export class AppComponent implements OnInit {
     ngOnInit() {
         this.items = [
           {id: '1', label: 'Horner', routerLink: 'lab1'},
-          {id: '3', label: 'Całki numeryczne', routerLink: 'lab3'}
+          {id: '3', label: 'Całki numeryczne', routerLink: 'lab3'},
+          {id: '4', label: 'Interpolacja', routerLink: 'lab4'}
         ];
     }
 
